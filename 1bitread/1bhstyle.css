@@ -1,0 +1,118 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tblcenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headertext {
+  color: white;
+  font-family: Verdana;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: dogica;
+}
+
+.subtext {
+  color: white;
+  font-family: Verdana;
+  font-weight: 20;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: dogica;
+  line-height: 200%;
+}
+
+th, td {
+  color: white;
+  font-family: Verdana;
+  font-weight: 20;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: dogica;
+  line-height: 200%;
+  padding: 25px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+tr.spc>td {
+  padding-bottom: 0em;
+}
+
+p {
+  color: white;
+  font-size: 0.8em;
+  font-family: Verdana;
+  font-weight: 20%;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: dogica;
+  line-height: 200%;
+}
+
+@font-face {
+  font-family: dogica;
+  src: url(font/dogica.ttf);
+}
+
+.textbox { 
+    text-align: left;
+	font-weight: 900;
+	height: 100px;
+    background-color: white; 
+	color: #352336;
+	padding: 20px;
+	margin: 0;
+	border-style: solid;
+	border-color: #464F70;
+	border-width: 10px;
+}
+
+/* CHARACTER IMAGES */
+
+@keyframes play {
+  100% { background-position: 240px; }
+}
+
+.ico {
+  width: 80px;
+  height: 160px;
+  border: "0";
+  animation: play .8s steps(3) infinite;
+}
+
+#nioicon {
+  background: url(img/charimg/nioicon.png) 0 0;
+}
+
+#sakumaicon {
+  background: url(img/charimg/sakumaicon.png) 0 0;
+}
+
+#yukinagaicon {
+  background: url(img/charimg/yukinagaicon.png) 0 0;
+}
